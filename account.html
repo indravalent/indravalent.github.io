@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Account</title>
+
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <div class="logo_name">Shutterstock contributor</div>
+            <i class='bx bx-menu' id="btn" ></i>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="index.html">
+              <i class='bx bx-user' ></i>
+              <span class="links_name">Faq shutterstock</span>
+            </a>
+            <span class="tooltip">Home</span>
+          </li>
+          <li>
+            <a href="account.html">
+              <i class='bx bx-user'></i>
+              <span class="links_name">cara membuat <br> account</span>
+            </a>
+             <span class="tooltip">account</span>
+          </li>
+          <li>
+           <a href="signup.html">
+             <i class='bx bx-user' ></i>
+             <span class="links_name">Cara mendaftar</span>
+           </a>
+           <span class="tooltip">signing up</span>
+         </li>
+         <li>
+           <a href="submit.html">
+             <i class='bx bx-user' ></i>
+             <span class="links_name">Cara mengupload <br> konten</span>
+           </a>
+           <span class="tooltip">submit</span>
+         </li>
+         <li>
+            <a href="pembayaran.html">
+              <i class='bx bx-user' ></i>
+              <span class="links_name">Cara mendapatkan <br> adesense</span>
+            </a>
+            <span class="tooltip">adsense</span>
+          </li>
+        </ul>
+      </div>
+    <section class="home-section">
+        <div class="acumalaka">
+            <h1 class="acumalaka-title">FAQ</h1>
+            <p class="acumalaka-desc">Frequently Ask Question</p>
+            <div class="search">
+                <input type="text" name="" id="search_item" placeholder="search...."
+                onkeyup="search()">
+                <button>Search</button>
+            </div>
+        </div>    
+
+    <div class="faq">
+        <div class="faq-name">
+            <h1 class="faq-header">Account</h1>
+            <img class="faq-img" src="images/logo.png">
+        </div>
+        <div class="faq-box" id="faq-box">
+            <div class="faq-wrapper">
+                <input type="checkbox" class="faq-trigger" id="faq-trigger-1">
+                <label class="faq-title" for="faq-trigger-1">Bagaimana cara mentransfer akun saya dari akun pribadi ke akun bisnis?</label>
+                <div class="faq-detail">
+                    <p>
+                        Untuk mentransfer akun Anda dari akun pribadi ke akun bisnis, Anda harus memberikan nama bisnis yang sah dan lengkap kepada kami sebagai tujuan pembayaran. Kami juga memerlukan dokumentasi yang membuktikan keberadaan bisnis dan bukti kepemilikan. Contohnya adalah formulir pajak, sertifikat saham, akta penjualan, atau dokumen lain yang dengan jelas menyatakan pemilik bisnis. Jika dokumen-dokumen tersebut tidak dalam bahasa Inggris, terjemahan bahasa Inggris yang diaktakan oleh notaris yang dilakukan oleh layanan terjemahan bersertifikat harus disediakan.<br><br>
+                        Jika ada konten yang disetujui dalam portofolio Anda, entitas bisnis akan diminta untuk mengasumsikan semua kewajiban Anda dan berbagai perjanjian Anda dengan Shutterstock. Anda harus menandatangani Perjanjian Penugasan dan Pengambilalihan (perjanjian pengalihan hak cipta), yang akan kami sediakan pada saat itu.<br><br>
+                        Setelah informasi akun Anda diperbarui, Anda akan diminta untuk mengisi formulir pajak yang baru. Harap diperhatikan bahwa pembayaran tidak akan dilakukan ke rekening yang tidak memiliki formulir pajak yang disetujui.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-wrapper">
+                <input type="checkbox" class="faq-trigger" id="faq-trigger-2">
+                <label class="faq-title" for="faq-trigger-2">Bagaimana cara mentransfer akun saya ke orang lain?</label>
+                <div class="faq-detail">
+                    <P>
+                        Jika Anda ingin mengalihkan kepemilikan akun kontributor Anda, silakan hubungi kami dengan nama lengkap pemilik baru dan alasan perubahan kepemilikan.<br>
+                        Jika Anda memutuskan untuk mengalihkan akun Anda kepada orang lain dengan alasan apa pun, Anda tidak hanya mengalihkan akses ke akun tersebut, tetapi juga hak cipta atas karya apa pun dalam portofolio Anda. Harap diperhatikan bahwa hanya kontributor asli yang dapat memulai proses ini.<br><br>
+                        <b>Apa yang terjadi pada penghasilan yang belum dibayarkan di akun saya sebelum mengalihkan kepemilikan?</b><br>
+                        Penghasilan yang tertunda dan belum dibayarkan harus dibayarkan terlebih dahulu kepada pemegang akun asli.<br><br>
+                        <b>Dapatkah saya menjual akun kontributor saya ke kontributor lain?</b><br>
+                        Shutterstock tidak memfasilitasi penjualan akun kontributor. Namun, kami dapat membantu transfer kepemilikan akun, atau memberikan langkah-langkah tentang cara menggabungkan akun Shutterstock yang sudah ada.<br>
+                        Jika sebuah akun berisi konten yang disetujui, pemegang akun baru akan diminta untuk menanggung semua kewajiban sebelumnya dan berbagai perjanjian dengan Shutterstock. Pemegang akun asli harus menandatangani Perjanjian Penugasan dan Pengambilalihan (perjanjian pengalihan hak cipta), yang dengan senang hati kami sediakan.<br><br>
+                    </P>
+                </div>
+            </div>
+            <div class="faq-wrapper">
+                <input type="checkbox" class="faq-trigger" id="faq-trigger-3">
+                <label class="faq-title" for="faq-trigger-3">Bagaimana cara mengubah pengaturan bahasa di Shutterstock?</label>
+                <div class="faq-detail">
+                    <p>
+                        Untuk mengubah bahasa yang Anda inginkan untuk melihat situs kontributor dengan cepat, cukup pilih bahasa yang Anda sukai dari menu tarik-turun di bagian bawah halaman.<br><br>
+                        Situs kami dikonfigurasikan untuk secara otomatis ditampilkan dalam bahasa yang sama dengan yang ditetapkan dalam pengaturan browser internet Anda. Secara default, browser Anda kemungkinan besar dikonfigurasikan ke bahasa resmi di negara tempat Anda membeli komputer atau perangkat seluler. Untuk mengubah preferensi bahasa di komputer Anda, buka menu preferensi browser dan ikuti petunjuknya, karena petunjuknya sedikit berbeda untuk setiap browser.<br><br>
+                        <ul>
+                            <li>Chinese</li>
+                            <li>Czech</li>
+                            <li>Danish</li>
+                            <li>Dutch</li>
+                            <li>English</li>
+                            <li>French</li>
+                            <li>German</li>
+                            <li>Hungarian</li>
+                            <li>Italian</li>
+                            <li>Japanese</li>
+                            <li>Korean</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="faq-wrapper">
+                <input type="checkbox" class="faq-trigger" id="faq-trigger-4">
+                <label class="faq-title" for="faq-trigger-4">Bagaimana cara menutup akun kontributor saya?</label>
+                <div class="faq-detail">
+                    <p>
+                        Akun kontributor dengan penghasilan yang belum dibayarkan harus dibayarkan terlebih dahulu sebelum akun ditutup. Kami meminta Anda untuk menghubungi kami dan kami akan membantu Anda melakukan pembayaran terakhir sebelum menutup akun. Harap diperhatikan bahwa kami tidak dapat mengeluarkan pembayaran kurang dari $1, karena penyedia layanan pembayaran elektronik kami tidak mendukung hal ini.<br><br>
+                        Jika Anda tidak memiliki penghasilan yang belum dibayar, Anda dapat menutup akun kontributor Anda dengan mengeklik "Hapus akun saya" di bagian bawah halaman Pengaturan akun. Anda akan diminta untuk mengonfirmasi permintaan tersebut dengan memasukkan kata sandi Anda.<br><br>
+                        Kemudian kami akan mulai menghapus informasi Anda dari sistem kami. Jika Anda telah melisensikan konten kepada Shutterstock, kami akan menyimpan data pribadi tertentu yang diperlukan untuk memenuhi kewajiban hukum dan kepatuhan kami sejauh yang diwajibkan oleh hukum yang berlaku.  Setelah berakhirnya kewajiban hukum ini, kami akan secara otomatis menghapus, memusnahkan, dan/atau menyamarkan data Anda sesuai dengan kebijakan pengelolaan dan pemusnahan arsip kami.<br><br>
+                        Sebagai alternatif untuk menutup akun Anda, Anda bisa membuat konten Anda tidak tersedia untuk dilisensikan. Hal ini akan menghapus karya Anda dari situs web kami, namun tetap membuat akun Anda tetap aktif dan memastikan bahwa pembayaran penghasilan Anda akan dilakukan ketika Anda mencapai tingkat pembayaran minimum. Penghasilan rujukan Anda juga akan terus terakumulasi. Memilih masuk atau keluar dari lisensi memungkinkan Anda untuk mengembalikan konten yang telah disetujui sebelumnya jika Anda memutuskan untuk mengizinkan konten Anda dilisensikan di masa mendatang.<br><br>
+                        Untuk menghapus konten Anda dari lisensi, masuk ke akun Anda dan buka halaman Pengaturan akun. Gulir ke bawah ke bagian "Opsi lisensi" dan pilih "Tidak" untuk setiap opsi lisensi.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-wrapper">
+                <input type="checkbox" class="faq-trigger" id="faq-trigger-5">
+                <label class="faq-title" for="faq-trigger-5">Bagaimana cara mengubah nama akun saya?</label>
+                <div class="faq-detail">
+                    <p>
+                        Untuk menjaga keamanan akun Anda, Anda perlu menghubungi kami untuk mengubah atau memperbarui nama Anda melalui email ke submit@shutterstock.com. Lampirkan dokumentasi yang mengonfirmasi nama baru Anda. Dokumen pendukung dapat berupa a:<br><br>
+                        Jika Anda awalnya mendaftar dengan nama panggilan, Anda juga perlu menghubungi kami agar kami dapat membantu Anda mengubahnya menjadi nama resmi Anda. Jika nama Anda salah ketik, kami akan dengan senang hati memperbaikinya untuk Anda.<br><br>
+                        Jika Anda ingin mengubah nama di akun Anda menjadi nama orang lain, hal ini akan melibatkan pengalihan hak cipta karya Anda. Pelajari lebih lanjut tentang mentransfer akun Anda ke orang lain di sini.<br><br>
+                        Setelah kami menerima permintaan Anda beserta dokumentasi pendukungnya, seorang anggota tim Layanan Kontributor akan memperbarui nama yang terkait dengan akun tersebut. Anda akan melihat perubahan tersebut tercermin di bidang "Lakukan pembayaran ke" di pengaturan Akun Anda.<br><br>
+                        Untuk mengubah "Nama tampilan," nama yang dilihat pelanggan di situs web kami, masuk ke akun kontributor Anda dan klik Profil publik di Akun Anda di pojok kiri bawah. Masukkan nama tampilan baru dan klik Simpan di bagian atas halaman. Anda juga dapat mengubah URL Portofolio Anda, tetapi hanya satu perubahan URL yang diizinkan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+		<div class="main-content">
+			<div class="right box">
+				<h2>Contact Us</h2>
+                <div class="content">
+                    <div class="text">Name</div>
+                        <input type="text" id="name" placeholder="enter your name"> <br>
+                    <div class="text">email</div>
+                        <input type="email" id="email" placeholder="enter your email"> <br>
+                    <div class="text">message</div>    
+                    <textarea id="message" rows="3"></textarea> <br>
+                    <button class="btn btn-primary"onclick="sendMail()">submit</button>
+                </div>
+             </div>
+        </div>        
+    </footer>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+   (function(){
+      emailjs.init("McXZgfLFJqdnpVWSB");
+   })();
+    </script>              
+            
+    <script src="app.js"></script>
+</body>
+</html>

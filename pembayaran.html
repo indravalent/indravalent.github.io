@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Adesense</title>
+
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <div class="logo_name">Shutterstock contributor</div>
+            <i class='bx bx-menu' id="btn" ></i>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="index.html">
+              <i class='bx bx-user' ></i>
+              <span class="links_name">Faq shutterstock</span>
+            </a>
+            <span class="tooltip">Home</span>
+          </li>
+          <li>
+            <a href="account.html">
+              <i class='bx bx-user'></i>
+              <span class="links_name">cara membuat <br> account</span>
+            </a>
+             <span class="tooltip">account</span>
+          </li>
+          <li>
+           <a href="signup.html">
+             <i class='bx bx-user' ></i>
+             <span class="links_name">Cara mendaftar</span>
+           </a>
+           <span class="tooltip">signing up</span>
+         </li>
+         <li>
+           <a href="submit.html">
+             <i class='bx bx-user' ></i>
+             <span class="links_name">Cara mengupload <br> konten</span>
+           </a>
+           <span class="tooltip">submit</span>
+         </li>
+         <li>
+            <a href="pembayaran.html">
+              <i class='bx bx-user' ></i>
+              <span class="links_name">Cara mendapatkan <br> adesense</span>
+            </a>
+            <span class="tooltip">adsense</span>
+          </li>
+        </ul>
+    </div>
+
+    <section class="home-section">
+        <div class="acumalaka">
+            <h1 class="acumalaka-title">FAQ</h1>
+            <p class="acumalaka-desc">Frequently Ask Question</p>
+            <div class="search">
+                <input type="text" name="" id="search_item" placeholder="search...."
+                onkeyup="search()">
+                <button>Search</button>
+            </div>
+        </div>    
+
+    <div class="faq">
+        <div class="faq-name">
+            <h1 class="faq-header">Cara<br>Pembayaran</h1>
+            <img class="faq-img" src="images/logo.png">
+        </div>
+        <div class="faq-box" id="faq-box">
+            <div class="faq-wrapper">
+                <input type="checkbox" class="faq-trigger" id="faq-trigger-1">
+                <label class="faq-title" for="faq-trigger-1">Bagaimana cara mengubah pengaturan pembayaran saya?</label>
+                <div class="faq-detail">
+                    <p>
+                        Pengaturan pembayaran dapat diubah di bagian "Informasi pembayaran" pada Pengaturan Akun Anda. Anda tidak boleh berbagi akun Payoneer, Paypal, atau Skrill dengan kontributor Shutterstock lainnya (Ketentuan Layanan, paragraf 8j.) Jika pengaturan pembayaran diubah setelah hari terakhir dalam satu bulan, pengaturan tersebut akan berlaku pada bulan berikutnya.<br><br>
+                        Untuk pembayaran elektronik melalui Payoneer, Anda harus menautkan informasi akun Payoneer Anda.<br><br>
+                        Informasi pembayaran<br><br>
+                        <ul>
+                            <li>Lakukan pembayaran ke: Masukkan nama Anda seperti yang tertera di akun. Jika Anda mendaftar sebagai bisnis, masukkan nama bisnis.</li>
+                            <li>Metode pembayaran: Pilih PayPal, Skrill, atau Payoneer</li>
+                            <li>Email pembayaran: Masukkan alamat email yang terkait dengan rekening PayPal atau Skrill Anda. Secara default, bidang ini diisi dengan alamat email yang sama dengan email kontak Anda. Kolom ini tidak relevan jika Anda memilih Payoneer sebagai metode pembayaran, karena Anda harus menautkan akun Payoneer secara langsung.</li>
+                            <li>Pembayaran minimum: Masukkan jumlah penghasilan yang harus terkumpul di akun Anda sebelum pembayaran dapat dilakukan. Jumlah pembayaran minimum adalah $25 dan maksimum $2000.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="faq-wrapper">
+                <input type="checkbox" class="faq-trigger" id="faq-trigger-2">
+                <label class="faq-title" for="faq-trigger-2">Bagaimana cara saya menerima pembayaran melalui Payoneer?</label>
+                <div class="faq-detail">
+                    <p>
+                        Untuk mengubah metode pembayaran, buka halaman Pengaturan akun. Pilih Payoneer dari pilihan metode pembayaran, dan klik tombol Hubungkan Akun.<br><br>
+                        Jika Anda sudah memiliki akun Payoneer, masukkan nama pengguna dan kata sandi Payoneer Anda di kotak pop-up dan tekan Lanjutkan. Mungkin perlu beberapa menit agar akun Shutterstock dan akun Payoneer Anda berhasil ditautkan. Saat tautan berhasil dibuat, Anda akan melihat pesan yang mengonfirmasi bahwa akun Anda telah terhubung.<br><br>
+                        Jika koneksi akun gagal, Anda mungkin memasukkan nama pengguna atau kata sandi yang salah. Untuk informasi lebih lanjut atau untuk mengatur ulang kata sandi Anda, hubungi Payoneer.<br><br>
+                        Silakan hubungi kami jika Anda terus mengalami masalah dalam memasukkan informasi pada halaman pengaturan Akun Shutterstock.<br><br>
+                        <b>Bagaimana jika saya tidak memiliki akun Payoneer?</b><br>
+                        Anda dapat mendaftar Payoneer langsung dari akun Kontributor Shutterstock Anda. Dari halaman Pengaturan akun Anda, pilih Payoneer dari opsi Metode pembayaran. Jika Anda tidak memiliki akun Payoneer, pilih "Buat akun."<br>
+                        <ul>
+                            <li>nama pertama dan terakhir</li>
+                            <li>alamat emaail</li>
+                            <li>tanggal lahir</li>
+                            <li>no yang bisa dihubungi</li>
+                        </ul><br>
+                        anda akan diminta juga untuk membuat<br>
+                        <ul>
+                            <li>username</li>
+                            <li>Password</li>
+                            <li>Security Questions</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="faq-wrapper">
+                <input type="checkbox" class="faq-trigger" id="faq-trigger-3">
+                <label class="faq-title" for="faq-trigger-3">Berapa uang yang akan saya dapatkan per unduhan?</label>
+                <div class="faq-detail">
+                    <p>
+                        Secara umum, ada tiga faktor utama yang menentukan jumlah yang Anda peroleh dari setiap unduhan. Penghasilan per unduhan bervariasi berdasarkan:<br><br>
+                        <ul>
+                            <li>Jenis paket yang digunakan oleh pelanggan. Paket paling umum yang ditawarkan di situs eCommerce kami adalah langganan tahunan, langganan bulanan tanpa komitmen, dan paket sesuai permintaan dalam berbagai ukuran. Lihat opsi paket gambar dan video pelanggan kami.</li>
+                            <li>Jenis lisensi yang dibeli: Standar vs. Disempurnakan. Lihat halaman perbandingan lisensi kami untuk gambar dan video untuk detailnya Jenis lisensi yang dibeli: Standar vs. Disempurnakan. Lihat halaman perbandingan lisensi kami untuk gambar dan video untuk detailnya.</li>
+                            <li>Tingkat penghasilan Anda pada saat mengunduh</li>
+                        </ul><br>
+                        Total unduhan dan penghasilan Anda yang dihasilkan dari unduhan berlisensi dan rujukan ditampilkan di bagian atas halaman ringkasan Penghasilan. Anda dapat melihat penghasilan Anda yang disusun berdasarkan bulan atau jenis produk (ini adalah jenis paket yang digunakan oleh pelanggan). Keseluruhan unduhan harian Anda akan muncul di sini dalam waktu satu jam setelah lisensi dibeli oleh pelanggan.<br><br>
+                        <b>berdasarkan tanggal</b><br>
+                        Setiap bulan menampilkan satu baris untuk setiap hari yang menghasilkan pendapatan, dengan total harian di setiap kolom. Klik pada tanggal tertentu untuk melihat penghasilan hari itu yang dirinci berdasarkan produk, paket, dan jenis lisensi<br><br>
+                        <b>berdasarkan Produk</b><br>
+                        menu ini memungkinkan Anda untuk menganalisis penghasilan yang dihasilkan setiap aset Anda sejak ditambahkan ke portofolio Anda. Penghasilan dari setiap aset dikelompokkan berdasarkan jenis paket yang digunakan untuk mengunduh.<br><br>
+                        <ul>
+                            <li>Subscriptions: Gambar yang dilisensikan melalui salah satu paket langganan bulanan atau tahunan kami.</li>
+                            <li>On Demand: Gambar yang dilisensikan menggunakan salah satu paket sesuai permintaan kami.</li>
+                            <li>Enhanced: Gambar yang diunduh dengan pembelian paket lisensi Enhanced.</li>
+                            <li>Single Other: Pengunduhan gambar tunggal yang dilakukan melalui aplikasi seluler kami dan sebagian besar produk khusus lainnya yang tidak ditawarkan untuk layanan mandiri di platform eCommerce kami. Ini termasuk penawaran dan kemitraan API, paket Enterprise, dan paket khusus lainnya yang disusun oleh Tim Penjualan kami. Perlu diingat bahwa setiap pendapatan yang dihasilkan dari kesepakatan dan kemitraan API kami adalah aliran pendapatan tambahan. Mereka berasal dari pelanggan yang diperoleh di luar platform eCommerce reguler kami.</li>
+                            <li>Cart Sales: Klip video yang dibeli secara a la carte dan klip yang dilisensikan melalui salah satu paket langganan video kami.</li>
+                            <li>clip packs: Video yang dilisensikan menggunakan salah satu paket sesuai permintaan kami.</li>
+                            <li>Enhanced video: Video yang dibeli dengan lisensi video yang disempurnakan.</li>
+                        </ul><br><br>
+                        Pada kesempatan yang jarang terjadi, paket khusus mungkin masuk ke dalam kategori langganan, dan dalam hal ini, penghasilan dari unduhan ini akan muncul di opsi masing-masing. Namun, jumlahnya mungkin terlihat berbeda dari apa yang biasa Anda lihat yang dihasilkan dari paket eDagang standar.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+		<div class="main-content">
+			<div class="right box">
+				<h2>Contact Us</h2>
+                <div class="content">
+                    <div class="text">Name</div>
+                        <input type="text" id="name" placeholder="enter your name"> <br>
+                    <div class="text">email</div>
+                        <input type="email" id="email" placeholder="enter your email"> <br>
+                    <div class="text">message</div>    
+                    <textarea id="message" rows="3"></textarea> <br>
+                    <button class="btn btn-primary"onclick="sendMail()">submit</button>
+                </div>
+             </div>
+        </div>        
+    </footer>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+   (function(){
+      emailjs.init("McXZgfLFJqdnpVWSB");
+   })();
+    </script>
+            
+                
+    
+    <script src="app.js"></script>
+</body>
+</html>
